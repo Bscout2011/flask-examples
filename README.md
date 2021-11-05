@@ -1,28 +1,28 @@
-Python Web Development with Flask
-=================================
+# Python: an Introduction
 
-This repository contains the source code that I demonstrate in my "Python Web Development with Flask" presentation.
+Source code to play around with Python.
 
-Requirements
-------------
+- `hello_python.ipynb`: a Jupyter notebook with Pythonic examples.
+- `01-hello-world/`: single file Flask web application.
+- `02-templates/`: use a template to render HTML.
+- `03-forms/`: POST information to a web page.
+- `flaskr`: the blog application you make in the Flask tutorial.
+- `poppy.png`: my ferocious puppy.
+
+## Requirements
 
 To install and run these examples you need:
 
-- Python 2.7 or 3.3+
-- virtualenv (not required if you are using Python 3.4)
+- Python 3.7+
 - git (only to clone this repository)
 
-Installation
-------------
+## Installation
 
-The commands below set everything up to run the examples:
+The bash commands below set everything up to run the examples:
 
-    $ git clone https://github.com/miguelgrinberg/flask-examples.git
-    $ cd flask-examples
-    $ virtualenv venv
-    $ . venv/bin/activate
-    (venv) pip install -r requirements.txt
-
-Note for Python 3.4 users: replace `virtualenv` with `pyvenv`.
-
-Note for Microsoft Windows users: replace the virtual environment activation command above with `venv\Scripts\activate`.
+    git clone https://github.com/Bscout2011/flask-examples.git
+    cd flask-examples
+    mkdir myenv
+    python3 -m venv venv/
+    source venv/bin/activate
+    pip install -r requirements.txt

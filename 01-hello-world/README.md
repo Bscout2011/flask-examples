@@ -1,17 +1,7 @@
 Example 1
 =========
 
-This example shows a simple Flask application.
+This example shows a simple Flask application. 
 
-Running the application
------------------------
-
-To run this example follow these steps:
-
-- Activate a virtual environment that contains the packages in `../requirements.txt`
-- To start the application run the following command:
-
-        (venv) $ python hello.py
-
-- Works fine with both Windows and Linux OS.
-
+Run the application with `python3 hello.py`. Use a web browser to navigate to `http://127.0.0.1:5000/`. "Hello World!".
+Now interact with the web page with the extension `/user/<name>` where the `<name>` is a variable you can change.
